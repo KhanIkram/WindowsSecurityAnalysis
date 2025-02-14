@@ -47,24 +47,22 @@ Choose Analysis Mode when prompted:
 ## MITRE ATT&CK Reference
 A subset of Event IDs mapped in this script:
 
-4624 → T1078 - Valid Accounts
-
-4625 → T1110 - Brute Force
-
-4672 → T1068 - Privilege Escalation
-
-4688 → T1059 - Command and Scripting Interpreter
-
-4697, 7045 → T1543.003 - Windows Service
+- 4624 → T1078 - Valid Accounts
+- 4625 → T1110 - Brute Force
+- 4672 → T1068 - Privilege Escalation
+- 4688 → T1059 - Command and Scripting Interpreter
+- 4697, 7045 → T1543.003 - Windows Service
 
 ## Disclaimer
 
-No Warranty: This script is provided “as is”, without warranty of any kind, either express or implied.
-Educational/Testing Purposes: Use at your own risk in test or controlled environments. Consult your own organization’s policies and legal requirements before deploying in production.
-Contributing
-We welcome improvements, especially around:
+- No Warranty: This script is provided “as is”, without warranty of any kind, either express or implied.
+- Educational/Testing Purposes: Use at your own risk in test or controlled environments.
+- Consult your own organization’s policies and legal requirements before deploying in production.
 
-Additional MITRE technique mappings
-Expanded event filtering
-Integration with Get-WinEvent or XML-based queries
+## Contributing
+We welcome improvements, especially around:
+- Additional MITRE technique mappings
+- Expanded event filtering
+- Integration with Get-WinEvent or XML-based queries
+
 Please open an issue or submit a pull request to discuss any changes.
